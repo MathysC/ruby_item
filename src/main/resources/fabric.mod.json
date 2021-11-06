@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "rubyitems",
+  "version": "${version}",
+
+  "name": "Ruby Items",
+  "description": "Add Ruby items to the Game",
+  "authors": [
+    "Mathys Clerget"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MathysC",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rubyitems/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "solamiri.rubyitems.RubyItemsMain"
+    ]
+  },
+  "mixins": [
+    "rubyitems.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
