@@ -3,6 +3,8 @@ package solamiri.rubyitems;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import solamiri.rubyitems.block.RubyBlocks;
 import solamiri.rubyitems.item.RubyItems;
 
 public class RubyItemsMain implements ModInitializer {
@@ -20,8 +22,8 @@ public class RubyItemsMain implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		RubyItems.registerRubyItemItems();
 		RubyItems.registerRubyItemsItems();
+		RubyBlocks.registerRubyItemsBlocks();
 
 	}
 }

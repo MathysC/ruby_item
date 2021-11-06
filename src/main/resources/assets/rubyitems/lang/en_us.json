@@ -1,4 +1,5 @@
 {
+    "block.rubyitems.ruby_block": "Block of Ruby",
     "item.rubyitems.ruby": "Ruby",
     "itemGroup.rubyitems.ruby": "Ruby Tab"
 }
