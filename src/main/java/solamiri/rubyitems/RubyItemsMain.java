@@ -21,6 +21,7 @@ public class RubyItemsMain implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 
 		RubyItems.registerRubyItemItems();
+		RubyItems.registerRubyItemsItems();
 
 	}
 }

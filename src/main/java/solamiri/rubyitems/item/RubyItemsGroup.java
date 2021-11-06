@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import solamiri.rubyitems.RubyItemsMain;
 
-public class RubyItemGroup {
+public class RubyItemsGroup {
     public static final ItemGroup RUBY = FabricItemGroupBuilder.build(new Identifier(RubyItemsMain.MOD_ID,"ruby"),
     () -> new ItemStack(RubyItems.RUBY));
 }
