@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import solamiri.rubyitems.block.RubyBlocks;
+import solamiri.rubyitems.block.RubyOres;
 import solamiri.rubyitems.item.RubyItems;
 
 public class RubyItemsMain implements ModInitializer {
@@ -24,6 +25,7 @@ public class RubyItemsMain implements ModInitializer {
 
 		RubyItems.registerRubyItemsItems();
 		RubyBlocks.registerRubyItemsBlocks();
+		RubyOres.registerRubyOres();
 
 	}
 }
