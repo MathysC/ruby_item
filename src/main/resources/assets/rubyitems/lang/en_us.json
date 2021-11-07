@@ -2,5 +2,10 @@
     "block.rubyitems.ruby_block": "Block of Ruby",
     "item.rubyitems.ruby": "Ruby",
     "block.rubyitems.ruby_ore": "Ruby Ore",
-    "itemGroup.rubyitems.ruby": "Ruby Tab"
+    "itemGroup.rubyitems.ruby": "Ruby Tab",
+    "item.rubyitems.ruby_royal_crown": "Ruby Royal Crown",
+    "item.rubyitems.ruby_royal_chestplate": "Ruby Royal Chestplate",
+    "item.rubyitems.ruby_royal_legs": "Ruby Royal Legs",
+    "item.rubyitems.ruby_royal_boots": "Ruby Royal Boots"
+
 }

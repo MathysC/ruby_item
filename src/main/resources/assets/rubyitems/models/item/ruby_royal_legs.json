@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "rubyitems:item/ruby_royal_legs"
+    }
+}

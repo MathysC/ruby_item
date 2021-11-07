@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "G G",
+      "GRG"
+    ],
+    "key": {
+        "R": {
+          "item": "rubyitems:ruby"
+        },
+        "G": {
+          "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "rubyitems:ruby_royal_boots"
+    }
+  }
