@@ -23,9 +23,9 @@ public class RubyItemsMain implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 
-		RubyItems.registerRubyItemsItems();
-		RubyBlocks.registerRubyItemsBlocks();
-		RubyOres.registerRubyOres();
+		RubyItems.registerRubyItemsItems(); 	//Add Items into the game
+		RubyBlocks.registerRubyItemsBlocks(); 	//Add Block into the game
+		RubyOres.registerRubyOres();			//Add Ores and Biome modification into the game
 
 	}
 }
